@@ -1,0 +1,7 @@
+#! /bin/bash
+
+filecount=0
+
+filecound=`find . | wc -w`
+
+echo "tässä hakemistopuussa on $filecount sanaa tiedostolistauksessa."
